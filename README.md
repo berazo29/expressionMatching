@@ -1,5 +1,5 @@
 
-# expressionMatching
+# Expression Matching
 Stack data structure for solving a matching expression problem given the inputs "{", "[" and "(".
 
 ## Installation:
@@ -38,7 +38,8 @@ Expression: [()) Valid: 0
 Expression: {[()][()]} Valid: 1
 Expression: ((()(()))) Valid: 1
 ```
-
+`Note: This function does not check for expression precedence.
+   Therefore the expresion ([]) and [()] are both valid`
 <!-- LICENSE -->
 ## License
 
